@@ -1,4 +1,4 @@
-module github.com/irgifauzi/uts-irgi2024/boilerplate2024
+module github.com/irgifauzi/uts-irgi2024
 
 go 1.22.1
 
@@ -7,7 +7,6 @@ require (
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.52.4
 	github.com/irgifauzi/bec_uts v0.0.2
-	github.com/irgifauzi/uts-irgi2024 v0.0.0-20240509122703-11709eab88e4
 	github.com/whatsauth/whatsauth v0.2.9
 	go.mau.fi/whatsmeow v0.0.0-20240507080416-01b0547014dc
 )

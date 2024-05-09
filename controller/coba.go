@@ -12,11 +12,8 @@ func Homepage(c *fiber.Ctx) error {
 	return c.JSON(ipaddr)
 }
 
-func GetPemain(c *fiber.Ctx) error {
-	bola, err := gile.PemainGetAll()
-	if err != nil {
-		return c.Status(fiber.StatusInternalServerError).SendString(err.Error())
-	}
-
-	return c.JSON(bola)
+func GetPemainData(c *fiber.Ctx) error {
+	ps := gile.GetAllPemain()
+	return c.JSON(ps)
+	
 }
