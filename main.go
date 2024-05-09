@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"iteung/config"
-
+	"github.com/irgifauzi/uts-irgi2024/config"
+	
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
+	"github.com/irgifauzi/uts-irgi2024/url"
 
-	"iteung/url"
 
 	"github.com/gofiber/fiber/v2"
 )
