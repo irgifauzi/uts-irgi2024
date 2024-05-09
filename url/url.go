@@ -1,3 +1,4 @@
+
 package url
 
 import (
@@ -16,6 +17,8 @@ func Web(page *fiber.App) {
 	page.Patch("/", controller.Sink)
 	page.Delete("/", controller.Sink)
 	page.Options("/", controller.Sink)
-	
-	page.Get("/checkip", controller.Homepage) 
+
+	page.Get("/checkip", controller.Homepage) // ujicoba panggil package musik
+
+	page.Get("/sia", controller.GetPemain)
 }
